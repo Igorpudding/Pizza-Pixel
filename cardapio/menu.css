@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem
+}
+
+.menu a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a img {
+    box-sizing: border-box;
+    width: 10em;
+    border-radius: 50%;
+    padding: 1em;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bloco {
+    background-image: url(imagens/banner.png);
+    width: 23rem;
+    height: 10rem;
+    border: rgb(233, 229, 7) 1px solid;
+    border-radius: 2rem;
+    font-size: medium;
+}
+
+.bloco:hover {
+    display: flex;
+    width: 30rem;
+    height: 15rem;
+    align-items: center;
+    font-size: large;
+}
+
+.text h3, p{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
