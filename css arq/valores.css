@@ -19,26 +19,26 @@
     margin-top: 4rem;
 }
 
-.Imagem1, .Imagem2, .Imagem3{
+.ImagemMissao img, .ImagemVisao img, .ImagemValores img{
     width: 30rem;
     height: 30rem;
     background-color: white;
     justify-content: space-around;
 }
-.Desc1, .Desc2, .Desc3{
+.DescricaoMissao p, .DescricaoVisao p, .DescricaoValores p{
     width: 30rem;
     height: 50rem;
     background-color: rgb(240, 168, 168);
     justify-content: space-around;
 }
-.Desc1{
+.DescricaoMissao{
     background-color: red;
 }
 
-.Desc2{
+.DescricaoVisao{
     background-color: rgb(90, 255, 255);
 }
 
-.Desc3{
+.DescricaoValores{
     background-color: rgb(255, 117, 232);
 }
