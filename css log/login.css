@@ -1,0 +1,107 @@
+html{
+    background-image: url(https://64.media.tumblr.com/27a9372faf571224ac2188fe55dec85d/147bfebdf112f180-63/s1280x1920/01b015e6199c48fddeaab42715612591c8770707.gifv);
+}
+
+.FundoLogin{
+    width: 100%;
+    min-height: 85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CaixaLogin{
+    background-color: rgba(255,255,255,0.12);
+    width: 90rem;
+    min-height: 55rem;
+    border: solid 0.3rem rgb(236, 201, 42);
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.4);
+    display: flex;
+}
+
+.FotoLogin{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FotoLogin img{
+    width: 32rem;
+}
+
+.FormularioLogin{
+    width: 50rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FormularioLogin h1{
+    color: rgb(236, 201, 42);
+    font-size: 6rem;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+.FormularioLogin p{
+    color: white;
+    font-size: 2rem;
+    font-family: "Jersey 10", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.FormularioLogin label{
+    color: rgb(236, 201, 42);
+    font-size: 2.5rem;
+    font-family: "Jersey 10", sans-serif;
+    margin-top: 1.5rem;
+}
+
+.FormularioLogin input{
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    border: solid 0.2rem rgb(236, 201, 42);
+    border-radius: 0.5rem;
+}
+
+.FormularioLogin button{
+    background-color: rgb(236, 201, 42);
+    color: rgb(27, 27, 112);
+    height: 5rem;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    font-family: "Jersey 10", sans-serif;
+    cursor: pointer;
+}
+
+.FormularioLogin button:hover{
+    background-color: rgb(255, 225, 75);
+}
+
+.FormularioLogin a{
+    color: white;
+    font-size: 2rem;
+    font-family: "Jersey 10", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media(max-width: 900px){
+    .CaixaLogin{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .FotoLogin,
+    .FormularioLogin{
+        width: 100%;
+    }
+}
