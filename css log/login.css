@@ -24,11 +24,11 @@ html{
     width: 40rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    
 }
 
 .FotoLogin img{
-    width: 32rem;
+    width: 45rem;
 }
 
 .FormularioLogin{

@@ -17,19 +17,21 @@ z-index: 1;
 -webkit-user-drag: none;
 }
 
+
+
 .logotexto{
+    display: flex;
+    text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 3.8rem;
+
+
+    color: white;
+    font-size: 6rem;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+
     z-index: 2;
-    text-decoration: underline;
-    user-select: none;
-   text-shadow: 2px 2px 8px rgb(0, 0, 0);
-}
-.logotexto2{
-    color: rgb(255, 255, 255);
-    font-size: 3.8rem;
-    z-index: 2;
-    text-shadow: 2px 2px 8px rgb(0, 0, 0); 
     text-decoration: underline;
     user-select: none;
   
