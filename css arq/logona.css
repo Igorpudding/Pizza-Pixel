@@ -11,10 +11,14 @@ gap: 2rem;
 }
 
 .imagemprincipal{
-width: 100%;
-height: 100rem;
+width: 130rem;
+height: 90rem;
 z-index: 1;
 -webkit-user-drag: none;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -23,10 +27,8 @@ z-index: 1;
     display: flex;
     text-align: center;
     color: rgb(255, 255, 255);
-
-
     color: white;
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     text-shadow: 2px 2px 8px rgb(0, 0, 0);
