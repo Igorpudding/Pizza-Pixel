@@ -24,7 +24,7 @@ html{
     width: 40rem;
     display: flex;
     align-items: center;
-    
+    user-select: none;
 }
 
 .FotoLogin img{
